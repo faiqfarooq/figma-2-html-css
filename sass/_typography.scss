@@ -33,7 +33,7 @@
   line-height: 2.8rem;
   text-align: justify;
   text-justify: inter-word;
-  @media only screen and (max-width:$bp-small){
+  @media only screen and (max-width:$bp-medium-x){
     font-size: 2.5rem;
 }
   
@@ -119,6 +119,10 @@ margin-left: 1rem;
   transition: all .3s;
   background-image: linear-gradient(to right, $color-primary, $color-primary-light);
   color: #fff;
+  @media only screen and (max-width:$bp-smallest){
+    font-size: 2.5rem !important;
+   
+}
   &:active
   {
     transform: translateY(.5rem);
@@ -134,7 +138,6 @@ margin-left: 1rem;
   padding: 1.5rem 3rem;
   width: 20.1rem;
   border-radius: 100px;
-  font-style: normal;
   font-weight: 500; 
   font-size: 1.6rem;
   line-height: 1.8rem;
@@ -142,6 +145,10 @@ margin-left: 1rem;
   transition: all .3s;
   cursor: pointer;
   color: #fff;
+  @media only screen and (max-width:$bp-smallest){
+    font-size: 2.5rem !important;
+   
+}
   &:hover{
     background-image: linear-gradient(to right, $color-primary, $color-primary-light);
     box-shadow: 0 1rem 2rem rgba($color-primary,.4);
