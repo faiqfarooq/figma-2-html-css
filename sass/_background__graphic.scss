@@ -6,8 +6,9 @@
     mask-image:  url(../img/icons/background.svg);
     // background-image:  url(../img/icons/background.svg);
     height: 100.6rem;
+    top: 69rem;
     width: 42rem;
-    z-index: -1;
+    z-index: -100;
  
 }
 .background__graphic-2{
@@ -18,8 +19,9 @@
     mask-image:  url(../img/icons/background-1.svg);
     // background-image: url(../img/icons/background-1.svg);
     height: 100.6rem;
+    top: 69rem;
     width: 41.1rem;
-    z-index: -2;
+    z-index: -200;
 }
 .background__graphic-3{
     position: absolute;
@@ -30,8 +32,9 @@
     mask-image:  url(../img/icons/background-2.svg);
     // background-image: url(../img/icons/background-1.svg);
     height: 64.3rem;
+    top: 155rem;
     width: 47.6rem;
-    z-index: -3;
+    z-index: -300;
 }
 .background__graphic-4{
    
@@ -43,14 +46,15 @@
     mask-image:  url(../img/icons/background-3.svg);
     // background-image: url(../img/icons/background-1.svg);
     height: 63.3rem;
+    top: 155rem;
     width: 48.5rem;
-    z-index: -4;
+    z-index: -400;
 }
 .background__graphic-6{
    
     position: absolute;
    left: 0;
-   top: 380rem;
+   top: 413.5rem;
    background-repeat: no-repeat;
     background-color:$color-gray-dark-3;
     -webkit-mask-image:  url(../img/icons/background-4.svg);
@@ -58,5 +62,5 @@
     // background-image: url(../img/icons/background-1.svg);
     height: 54.4rem;
     width: 56.2rem;
-    z-index: -5;
+    z-index: -500;
 }

@@ -8,7 +8,7 @@ display: none;
         z-index: 1000;
         top: 2rem;
         right: 2rem;
-        height: 3%;
+        height: 4%;
         width: 8%;
         background-color: transparent;
         
@@ -22,10 +22,18 @@ display: none;
         }
     }
     &__img{
-       
+    
         @media only screen and (max-width:$bp-smallest){
+            cursor: pointer;
             height: 100%;
             width: 100%;
+            transition: all .3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            &:active{
+                transform: translateX(-1rem);
+            }
             
         }
     }
