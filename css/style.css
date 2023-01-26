@@ -442,12 +442,15 @@ body {
       @media only screen and (max-width: 31.25rem) {
         .header__btn--secondary {
           margin-right: 0;
-          margin-bottom: 1rem; } }
+          margin-bottom: 2rem; } }
+    @media only screen and (max-width: 31.25rem) {
+      .header__btn--primery {
+        padding: 1.6rem 4.5rem !important; } }
     @media only screen and (max-width: 31.25rem) {
       .header__btn {
         flex-direction: column;
         align-items: center;
-        margin-right: 30rem; } }
+        margin-right: 67rem; } }
   .header__contant-side {
     flex: 0 0 12%;
     width: 100%;

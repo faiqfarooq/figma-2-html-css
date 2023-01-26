@@ -149,14 +149,20 @@
             margin-right: 3rem;
             @media only screen and (max-width:$bp-smallest){
                 margin-right: 0;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
+               
+             }
+        }
+        &--primery{
+            @media only screen and (max-width:$bp-smallest){
+                padding: 1.6rem 4.5rem !important;
                
              }
         }
         @media only screen and (max-width:$bp-smallest){
            flex-direction: column;
            align-items: center;
-           margin-right: 30rem;
+           margin-right: 67rem;
           
         }
        
