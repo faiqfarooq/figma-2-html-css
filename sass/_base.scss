@@ -79,6 +79,12 @@ background-color:$color-background ;
 position: relative;
 font-family: $font-primary;
 }
+.header{
+    @media only screen and (max-width:$bp-smallest){
+       
+        
+    } 
+}
 .section-1{
 
     padding: 10rem 11.5rem;

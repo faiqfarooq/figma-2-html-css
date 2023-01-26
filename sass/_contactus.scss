@@ -25,7 +25,9 @@
         z-index: 1000;
         border-radius: 8px;
         &__text{
+
             resize: none;
+           
            
             
         }
@@ -47,8 +49,8 @@
         }
     }
     &__info{
-        transform: translate(-2rem,5.5rem);
-        height: 30rem;
+        transform: translate(-2rem,4rem);
+        height: 36rem;
         background-image: linear-gradient(89.65deg, $color-primary 0.26%, $color-primary-light 99.7%);
         border-radius: 8px;
         @media only screen and (max-width:$bp-smallest){
