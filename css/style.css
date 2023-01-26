@@ -707,14 +707,14 @@ body {
       width: 100%; } }
 
 .contact__paragraph {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .contact__main {
   display: flex;
   align-items: center; }
   @media only screen and (max-width: 31.25rem) {
     .contact__main {
-      flex-direction: column; } }
+      display: block; } }
 
 .contact__form {
   background: #FFFFFF;
